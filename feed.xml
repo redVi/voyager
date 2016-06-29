@@ -4,10 +4,10 @@
     <title>Your awesome title</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://redvi.github.io/voyager/</link>
-    <atom:link href="http://redvi.github.io/voyager/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jun 2016 13:11:33 +0700</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2016 13:11:33 +0700</lastBuildDate>
+    <link>http://redvi.github.io/</link>
+    <atom:link href="http://redvi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 29 Jun 2016 13:25:01 +0700</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2016 13:25:01 +0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -45,8 +45,8 @@
 
 </description>
         <pubDate>Wed, 29 Jun 2016 20:09:47 +0700</pubDate>
-        <link>http://redvi.github.io/voyager/posts/es6/</link>
-        <guid isPermaLink="true">http://redvi.github.io/voyager/posts/es6/</guid>
+        <link>http://redvi.github.io/posts/es6/</link>
+        <guid isPermaLink="true">http://redvi.github.io/posts/es6/</guid>
         
         <category>front-end</category>
         
@@ -73,8 +73,8 @@
 
 </description>
         <pubDate>Tue, 28 Jun 2016 23:09:47 +0700</pubDate>
-        <link>http://redvi.github.io/voyager/posts/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://redvi.github.io/voyager/posts/welcome-to-jekyll/</guid>
+        <link>http://redvi.github.io/posts/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://redvi.github.io/posts/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
         
