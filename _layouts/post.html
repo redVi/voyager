@@ -23,7 +23,9 @@ layout: default
         <span class="link-to-post__next">&#10535; &nbsp;Next post</span>
         <span class="link-to-post__title">{{ page.next.title }}</span>
       </a>
-    {% elsif page.previous.url %}
+    {% endif %}
+
+    {% if page.previous.url %}
       <a class="link-to-post" href="{{ page.previous.url }}">
         <span class="link-to-post__prev">&#10535; &nbsp;Previous post</span>
         <span class="link-to-post__title">{{ page.previous.title }}</span>
