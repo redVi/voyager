@@ -57,3 +57,9 @@ tags : ['front-end', 'jekyll']
 ```
 
 Don't forget to change `_config.yml`.
+
+## Production environment
+
+Build for production:
+
+`JEKYLL_ENV=production jekyll build`
