@@ -160,4 +160,15 @@
     max-width: $article-max-width;
     margin-left: $post-margin-left;
   }
+
+  .post-links {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .link-to-post {
+    margin: 50px auto;
+    padding: 2em;
+  }
 }
