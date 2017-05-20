@@ -30,7 +30,7 @@ safe: false
 lsi: false
 excerpt_separator: "\n\n"
 
-
+# Theme settings
 compress_html:
   comments: ["<!-- ", " -->"]
   clippings: all
