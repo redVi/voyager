@@ -1,7 +1,7 @@
 {% if page.bg %}
-  <aside class="sidebar" role="note" style="background-image: url({{ site.url }}{{ site.images }}/{{ page.bg }})">
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images | relative_url }}/{{ page.bg }})">
 {% else %}
-  <aside class="sidebar" role="note" style="background-image: url({{ site.url }}{{ site.images }}/bg.svg)">
+  <aside class="sidebar" role="note" style="background-image: url({{ site.images | relative_url }}/bg.svg)">
 {% endif %}
 
   <div class="cover">
