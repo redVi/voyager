@@ -21,7 +21,6 @@ disqus_username:
 
 # Build settings
 markdown: kramdown
-relative_permalinks: false
 permalink: /:categories/:title/
 
 # Posts settings
