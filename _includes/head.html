@@ -21,23 +21,23 @@
   <link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Roboto+Condensed:700&subset=latin' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.summary }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.summary }}">
 
   {% if page.bg %}
-    <meta property="og:image" content="{{ site.url }}{{ site.images }}/{{ page.bg }}">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.images }}/{{ page.bg }}">
+    <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
+    <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/{{ page.bg }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}{{ site.images }}/bg.svg">
-    <meta name="twitter:image" content="{{ site.url }}{{ site.images }}/bg.svg">
+    <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
+    <meta name="twitter:image" content="{{ site.baseurl | prepend: site.url }}{{ site.images }}/bg.svg">
   {% endif %}
 
 </head>

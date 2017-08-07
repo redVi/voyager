@@ -63,11 +63,7 @@ Don't forget to change `_config.yml`.
 If your blog is not in the root directory, you can include images with a relative path. For example:
 
 ```
-# directly in the blog post
 ![my_image]({{ site.images | relative_url }}/image.jpg)
-
-# or globally for all images in the _config.yml
-images: '/blog/assets/images'
 ```
 
 ## Production environment
