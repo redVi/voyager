@@ -11,7 +11,7 @@
 
         {% if page.tags %}
           {% for tag in page.tags %}
-            <a href="/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
           {% endfor %}
         {% else %}
           {{ page.title }}
