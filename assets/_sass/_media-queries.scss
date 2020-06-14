@@ -170,5 +170,8 @@
   .link-to-post {
     margin: 50px auto;
     padding: 2em;
+    &:nth-child(2) {
+      margin-left: 3px;
+    }
   }
 }
